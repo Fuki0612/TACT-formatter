@@ -39,13 +39,13 @@
 
 #firstTimeTable .firstPeriodButton {
 
-    color: #0f3e57;
-    background-color: #cadae3;
+    color: var(--sites-nav-menu-item-selected-color);
+    background-color: var(--sakai-active-color-1);
     font-weight: 600;
 }
 
 #secondTimeTable .secondPeriodButton {
-    color: #0f3e57;
-    background-color: #cadae3;
+    color: var(--sites-nav-menu-item-selected-color);
+    background-color: var(--sakai-active-color-1);
     font-weight: 600;
 }
