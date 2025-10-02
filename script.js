@@ -124,7 +124,7 @@ const makeLectureData = (siteName) => {
     if (timeData[2] === "その他") {
         return { term: { first: firstTerm, second: secondTerm }, time: null, title: siteName };
     }
-    const title = siteName.replace(/\(\d\d\d\d年度.+[\/／].+$/, "");
+    const title = siteName.replace(/[\(\（]\d\d\d\d年度.+[\/／].+$/, "");
     const time = timeData[2].split(",");
     
     // 「火3-4限」のような連続時限を展開
